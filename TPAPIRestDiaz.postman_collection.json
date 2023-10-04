@@ -48,19 +48,20 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nombre\": \"Juan\",\r\n    \"apellido\": \"Postman\",\r\n    \"biografia\": \"Ojala algun dia aprendan postman todos\"\r\n}"
+					"raw": "{\r\n    \"nombre\": \"Juan\",\r\n    \"apellido\": \"Postman\",\r\n    \"dni\": \"44309321\"\r\n}"
 				},
 				"url": {
-					"raw": "http://localhost:9000/api/BD1/autores",
-					"protocol": "http",
+					"raw": "https://tpapirestdiaz.onrender.com/api/BD1/personas",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"tpapirestdiaz",
+						"onrender",
+						"com"
 					],
-					"port": "9000",
 					"path": [
 						"api",
 						"BD1",
-						"autores"
+						"personas"
 					]
 				}
 			},
